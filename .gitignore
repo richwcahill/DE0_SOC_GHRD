@@ -1,0 +1,30 @@
+# no .~ files
+*.*~
+
+# ignore all files in the work/ directory
+questa/work/
+
+# ignore all db directory
+db/
+incremental_db/
+
+# ignore stamp directory
+stamp/
+
+# ignore hps_isw
+hps_isw_handoff/
+
+
+# ignore ini files
+*.ini
+
+# ignore report files
+*.*rpt
+*.*smsg
+*.*summary
+
+
+# other weird Questa files
+vish*
+vsim.wlf
+
